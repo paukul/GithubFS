@@ -3,10 +3,14 @@ GithubFS
 
 A FUSE Filesystem which mapps to github users and repositories.
 
-This is a fun WIP project without tests and very hackish code, so don't expect too much :)
+This is a fun WIP project without tests and very hackish code. It's not ment to be something very useful at the moment, its just a proof of concept!
 
 Usage
 --------
+* install macfuse: http://code.google.com/p/macfuse/
+* install bundler: `gem install bundler`
+* run `bundle`
+
 `ruby lib/githubfuse.rb`
 will create a ghfs folder and mount the virtual filesystem there.
 when you create a folder with the name of a github user in it, its subdirectories will be the users public repositories. 
