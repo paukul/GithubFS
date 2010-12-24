@@ -1,0 +1,28 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    api_cache (0.2.0)
+    crack (0.1.8)
+    fusefs-osx (0.7.0)
+    hashie (0.4.0)
+    httparty (0.6.1)
+      crack (= 0.1.8)
+    mechanize (1.0.0)
+      nokogiri (>= 1.2.1)
+    nokogiri (1.4.4)
+    octopi (0.4.0)
+      api_cache
+      httparty (>= 0.4.5)
+      mechanize (>= 0.9.3)
+      nokogiri (>= 1.3.1)
+    octopussy (0.3.1)
+      hashie (~> 0.4.0)
+      httparty (~> 0.6.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fusefs-osx
+  octopi
+  octopussy
