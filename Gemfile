@@ -1,5 +1,5 @@
 source :rubygems
 
-gem "octopi"
 gem "fusefs-osx"
-gem "octopussy"
+gem "ruby-debug"
+gem "httparty"
