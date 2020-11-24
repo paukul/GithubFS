@@ -2,11 +2,13 @@ GEM
   remote: http://rubygems.org/
   specs:
     columnize (0.3.2)
-    crack (0.1.8)
     fusefs-osx (0.7.0)
-    httparty (0.6.1)
-      crack (= 0.1.8)
+    httparty (0.10.0)
+      multi_json (~> 1.0)
+      multi_xml
     linecache (0.43)
+    multi_json (1.15.0)
+    multi_xml (0.6.0)
     ruby-debug (0.10.4)
       columnize (>= 0.1)
       ruby-debug-base (~> 0.10.4.0)
